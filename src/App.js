@@ -33,10 +33,10 @@ function App() {
         />
       </div>
       <div className="list_area">
+      </div>
         <Typography variant="body2" color="textSecondary" align="center">
           {'Copyright JB '+ new Date().getFullYear()+'.'}
         </Typography>
-      </div>
     </div>
   );
 }

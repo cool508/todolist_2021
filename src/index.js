@@ -5,6 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { MuiPickersUtilsProvider } from '@material-ui/pickers';
 import MomentUtils from '@date-io/moment';
+import 'moment/locale/ko';
+
+// import moment from 'moment';
+// moment.locale('kr'); 
 
 ReactDOM.render(
   <MuiPickersUtilsProvider utils={MomentUtils}>
